@@ -37,7 +37,8 @@ sections:
       text: |
         <div> 
           <h4 style="font-size:1.2rem; text-left; font-weight:400;">
-            Our workshop at COLM 2025 aims to invite research to uncover how modern LLMs may or may not already be, or could be trained or enhanced as, pragmatically competent pragmatic language users. We invite contributions that will help to forward the discussion of understanding LLMs, beyond the formal capabilities to functional linguistic capabilities that would allow models to use natural language flexibly and efficiently across contexts. Our workshop serves as an opportunity for researchers in NLP, (computational) pragmatics, cognitive science, and related interdisciplinary fields to come together in investigating this timely research direction.
+            Our workshop at COLM 2025 aims to invite research to uncover how modern LLMs may or may not already be, or could be trained or enhanced as, pragmatically competent pragmatic language users. We invite contributions that will help to forward the discussion of understanding LLMs, beyond the formal capabilities to functional linguistic capabilities that would allow models to use natural language flexibly and efficiently across contexts. 
+            Existing literature has been limited in relating the development of LLM agents to the cognitive and linguistic processes supporting effective, context-sensitive communication. For instance, conversational reasoning frameworks—such as belief-desire-intention or probabilistic reasoning models—remain largely under-explored in training or augmenting language models. Therefore, our workshop serves as an opportunity for researchers in NLP, (computational) pragmatics, cognitive science, and related interdisciplinary fields to come together in investigating this timely research direction.
           </h4>
         </div>
     design:
@@ -83,7 +84,8 @@ sections:
           <h2 style="font-size:1.5rem; margin-bottom:1rem;">Submission Format</h2>
           <div>
             <h4 style="font-size:1.1rem; text-left; font-weight:400; margin-bottom:2rem;">
-            We seek <strong>both short and long papers</strong> (up to 4 and 8 pages, respectively) excluding references and appendices. All submissions will be in PDF format and submitted via the OpenReview portal. Reviews will be double-blind. All accepted papers are non-archival.
+            We seek <strong>both short and long papers</strong> (up to 4 and 8 pages, respectively) excluding references and appendices. We invite various types of manuscripts, including position papers. All submissions will be in PDF format and submitted via the OpenReview portal. Manuscripts should be formatted in the COLM 2025 LaTeX template. Reviews will be double-blind. All accepted papers are non-archival and will be published on the workshop website.
+            The link to OpenReview will be available soon.
             </h4>
           </div>
         </div>
