@@ -139,25 +139,23 @@ sections:
     id: speakers
     content:
       title: <h1 class="tracking-tight text-left" style="font-size:3rem; color:white; line-height:125%; ">Invited Speakers<hr/></h1>
+      #<img src="speakers/bg-triangles.svg" width="250" height="250" alt="Jane Doe">
       text: |
-        <div style="width: 100%; margin: 0 auto; display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; text-align: center;">
+        <div style="width: 100%; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; text-align: center;">
           
           <div>
-            <img src="speakers/bg-triangles.svg" width="250" height="250" alt="Jane Doe">
             <h3 style="font-size: 1.5rem; margin: 0.5rem 0;"><strong>Daniel Fried</strong></h3>
             <p style="font-size: 1rem;">
             CMU </p>
           </div>
 
           <div>
-            <img src="speakers/bg-triangles.svg" width="250" height="250" alt="Jane Doe">
-            <h3 style="font-size: 1.5rem; margin: 0.5rem 0;"><strong>Jennifer<br/> Hu</strong></h3>
+            <h3 style="font-size: 1.5rem; margin: 0.5rem 0;"><strong>Jennifer Hu</strong></h3>
             <p style="font-size: 1rem;">
             Harvard/JHU </p>
           </div>
 
           <div>
-            <img src="speakers/bg-triangles.svg" width="250" height="250" alt="Jane Doe">
             <h3 style="font-size: 1.5rem; margin: 0.5rem 0;"><strong>Vera Demberg</strong></h3>
            <p style="font-size: 1rem;">
             Saarland University</p>
