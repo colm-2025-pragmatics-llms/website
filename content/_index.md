@@ -89,7 +89,7 @@ sections:
         </div>
     design:
       spacing:
-        padding: ["10rem", "12rem", 0, 0 ]
+        padding: ["10rem", "12rem", "10rem", 0 ]
       columns: 1
       css_class: "dark min-h-screen"
       background:
@@ -121,7 +121,7 @@ sections:
         </div>
     design:
       spacing:
-        padding: ["10rem", 0,0, "10rem"]
+        padding: ["10rem", 0, 0, "10rem"]
       columns: 1
       css_class: "dark"
       background:
