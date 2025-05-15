@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Creator's Landing Page | Hugo Theme # Website name
-baseURL: 'https://example.com/' # Website URL
+title: Workshop on Pragmatic Reasoning in LLMs @COLM 2025 # Website name
+baseURL: 'https://lm-as-language-user.github.io/colm2025/' # Website URL
 
 ############################
 ## PAGE OPTIONS

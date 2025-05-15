@@ -43,7 +43,7 @@ header:
       enable: false
       text: "Register for COLM 2025"
       url: "https://colmweb.org"
-    show_search: true
+    show_search: false
     show_theme_chooser: false
 
 # Site footer
