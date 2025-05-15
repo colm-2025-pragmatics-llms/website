@@ -42,7 +42,7 @@ sections:
         </div>
     design:
       spacing:
-        padding: ["5rem", "10grem", 0, 0]
+        padding: ["5rem", "10rem", 0, 0]
       columns: 1
       css_class: "dark "
       background:
@@ -141,7 +141,7 @@ sections:
       title: <h1 class="tracking-tight text-left" style="font-size:3rem; color:white; line-height:125%; ">Invited Speakers<hr/></h1>
       #<img src="speakers/bg-triangles.svg" width="250" height="250" alt="Jane Doe">
       text: |
-        <div style="width: 100%; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; text-align: center;">
+        <div style="width: 100%; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 0fr); gap: 2rem; text-align: center;">
           
           <div>
             <h3 style="font-size: 1.5rem; margin: 0.5rem 0;"><strong>Daniel Fried</strong></h3>
