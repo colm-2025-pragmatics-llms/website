@@ -5,138 +5,333 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "6rem"
+  spacing: "1rem"
 
 sections:
-  - block: hero
+  - block: markdown
+    id: intro
+    content:   
+      title: <h4><span style="font-size:3.0rem; text-left; font-weight:600;">COLM 2025 Workshop</span><div style="height:4.0rem"></h4><h2 class="tracking-tight text-left" style="font-size:4.0rem; color:white; line-height:125%; ">Pragmatic Reasoning <br/>in Language Models<div style="height:4rem"></div></h2><h3><span style="font-size:2.1rem; text-left; font-weight:400; font-style:italic">Language Models as Language Users</span><div style="height:8.0rem"></h3><h2 class="tracking-tight text-left" style="font-size:3rem; color:white; line-height:125%; "><span style="font-size:2.5rem; text-align:left; display:block; border-left:10px solid white; padding-left:1rem; font-weight:500; line-height:150%;">October 10, 2025 <br/>Montreal, Canada </span></h2>
+      # text: 
+    design:
+    
+      spacing:
+        padding: ["10rem", "10rem", 0 , 0]
+      columns: 1
+      css_class: "dark min-h-screen"
+      background:
+        color: "#111111"
+        image:
+          filename: 1.png
+          size: contain
+          position: center
+          # Use a fun parallax-like fixed background effect on desktop? true/false
+          parallax: true
+          # Text color (true=light, false=dark, or remove for the dynamic theme color).
+          text_color_light: true
+
+  - block: markdown
+    id: overview
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
-      primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-        icon: rocket-launch
-      secondary_action:
-        text: Read the docs
-        url: https://docs.hugoblox.com
-      announcement:
-        text: "Announcing the release of version 1."
-        link:
-          text: "Read more"
-          url: "/blog/"
+      title: <h1 class="tracking-tight text-left" style="font-size:3rem; color:white; line-height:125%; ">Overview<hr/></h1>
+      text: |
+        <div> 
+          <h4 style="font-size:1.2rem; text-left; font-weight:400;">
+            Our workshop at COLM 2025 aims to invite research to uncover how modern LLMs may or may not already be, or could be trained or enhanced as, pragmatically competent pragmatic language users. We invite contributions that will help to forward the discussion of understanding LLMs, beyond the formal capabilities to functional linguistic capabilities that would allow models to use natural language flexibly and efficiently across contexts. Our workshop serves as an opportunity for researchers in NLP, (computational) pragmatics, cognitive science, and related interdisciplinary fields to come together in investigating this timely research direction.
+          </h4>
+        </div>
     design:
       spacing:
-        padding: [0, 0, 0, 0]
-        margin: [0, 0, 0, 0]
-      # For full-screen, add `min-h-screen` below
+        padding: ["5rem", "10rem", 0, 0]
+      columns: 1
+      css_class: "dark "
+      background:
+        color: "#111111"
+        image:
+          filename: 1.png
+          size: contain
+          position: center
+          # Use a fun parallax-like fixed background effect on desktop? true/false
+          parallax: true
+          # Text color (true=light, false=dark, or remove for the dynamic theme color).
+          text_color_light: true
+  
+
+  - block: markdown
+    id: cfp
+    content:
+      title: <h1 class="tracking-tight text-left" style="font-size:3rem; color:white; line-height:125%; ">Call for Contributions<hr/></h1>
+      text: |
+        <div> 
+          <h4 style="font-size:1.2rem; text-left; font-weight:400; margin-bottom:2rem;">
+            We invite papers conforming to the COLM main track guidelines on research questions including, but not limited to:
+          </h4>
+
+          <div>
+            <h4 style="font-size:1.1rem; text-left; font-weight:400; margin-left:2rem; margin-bottom:3rem;">
+            <ul style="list-style-type:disc;">
+              <li style="margin-bottom:1rem;">How well can LLMs comprehend and/or generate pragmatic language, across task formats and prompting strategies?</li>
+              <li style="margin-bottom:1rem;">How can LLMs' pragmatic abilities be improved and made more human-like, and how should human-likeness in pragmatic competence be assessed?</li>
+              <li style="margin-bottom:1rem;">s there a correlation between LLM capabilities for Theory-of-Mind reasoning and contextual language generation; if so, how?</li>
+              <li style="margin-bottom:1rem;">Are LLM abilities in functional language use similar across cultures and languages?</li>
+              <li style="margin-bottom:1rem;">How can LLMs' pragmatic abilities be improved and made more human-like, and how should human-likeness in pragmatic competence be assessed?</li>
+              <li style="margin-bottom:1rem;">How can LLMs be leveraged for better theoretical, experimental and computational understanding of human pragmatic language use?</li>
+              <li style="margin-bottom:1rem;">What are the mechanisms supporting LLMs' pragmatic competence, e.g. through the lens of mechanistic or representational interpretability?</li>
+            </ul>
+          </div>
+
+          <h2 style="font-size:1.5rem; margin-bottom:1rem;">Submission Format</h2>
+          <div>
+            <h4 style="font-size:1.1rem; text-left; font-weight:400; margin-bottom:2rem;">
+            We seek <strong>both short and long papers</strong> (up to 4 and 8 pages, respectively) excluding references and appendices. All submissions will be in PDF format and submitted via the OpenReview portal. Reviews will be double-blind. All accepted papers are non-archival.
+            </h4>
+          </div>
+        </div>
+    design:
+      spacing:
+        padding: ["10rem", "12rem", 0, 0 ]
+      columns: 1
+      css_class: "dark min-h-screen"
+      background:
+        color: "#111111"
+        image:
+          filename: 1.png
+          size: contain
+          position: center
+          # Use a fun parallax-like fixed background effect on desktop? true/false
+          parallax: true
+          # Text color (true=light, false=dark, or remove for the dynamic theme color).
+          text_color_light: true
+
+  - block: markdown
+    id: dates
+    content:
+      title: <h1 class="tracking-tight text-left" style="font-size:3rem; color:white; line-height:125%; ">Important Dates<hr/></h1>
+      text: |
+        <div>
+            <h4 style="font-size:1.3rem; text-left; font-weight:400;">
+            <ul style="list-style-type:none;">
+              <li style="margin-bottom:0.5rem;">📅 <strong>Submission open:</strong> TBD</li>
+              <li style="margin-bottom:0.5rem;">📅 <strong>Submission deadline:</strong> June 23rd AoE</li>
+              <li style="margin-bottom:0.5rem;">📅 <strong>Notification of acceptance:</strong> July 24th</li>
+              <li style="margin-bottom:0.5rem;">📅 <strong>Camera-ready due:</strong> TBD</li>
+              <li style="margin-bottom:0.5rem;">📅 <strong>Workshop date:</strong> October 10th</li>
+            </ul>
+            </h4>
+        </div>
+    design:
+      spacing:
+        padding: ["10rem", 0,0, "10rem"]
+      columns: 1
       css_class: "dark"
       background:
-        color: "navy"
+        color: "#111111"
         image:
-          # Add your image background to `assets/media/`.
-          filename: bg-triangles.svg
-          filters:
-            brightness: 0.5
-  - block: stats
+          filename: 2.png
+          size: contain
+          position: center
+          # Use a fun parallax-like fixed background effect on desktop? true/false
+          parallax: true
+          # Text color (true=light, false=dark, or remove for the dynamic theme color).
+          text_color_light: true
+
+  - block: markdown
+    id: speakers
     content:
-      items:
-        - statistic: "1M+"
-          description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
-          description: |
-            GitHub stars  
-            since 2016
-        - statistic: "3k+"
-          description: |
-            Discord community  
-            for support
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-      # Reduce spacing
-      spacing:
-        padding: ["1rem", 0, "1rem", 0]
-  - block: features
-    id: features
-    content:
-      title: Features
-      text: Build your site with blocks 🧱
-      items:
-        - name: Optimized SEO
-          icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
-          icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
-          icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
-          icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
-          icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
-          icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
-  - block: cta-image-paragraph
-    id: solutions
-    content:
-      items:
-        - title: Build your future-proof website
-          text: As easy as 1, 2, 3!
-          feature_icon: check
-          features:
-            - "Future-proof - edit your content in text files"
-            - "Website is generated by a single app, Hugo"
-            - "No JavaScript knowledge required"
-          # Upload image to `assets/media/` and reference the filename here
-          image: build-website.png
-          button:
-            text: Get Started
-            url: https://hugoblox.com/templates/
-        - title: Large Community
-          text: Join our large community on Discord - ask questions and get live responses
-          feature_icon: bolt
-          features:
-            - "Dedicated support channel"
-            - "3,000+ users on Discord"
-            - "Share your site and get feedback"
-          # Upload image to `assets/media/` and reference the filename here
-          image: coffee.jpg
-          button:
-            text: Join Discord
-            url: https://discord.gg/z8wNYzb
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: testimonials
-    content:
-      title: ""
-      text: ""
-      items:
-        - name: "Hugo Smith"
-          role: "Marketing Executive at X"
-          # Upload image to `assets/media/` and reference the filename here
-          image: "testimonial-1.jpg"
-          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
+      title: <h1 class="tracking-tight text-left" style="font-size:3rem; color:white; line-height:125%; ">Invited Speakers<hr/></h1>
+      text: |
+        <div style="width: 100%; margin: 0 auto; display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; text-align: center;">
+          
+          <div>
+            <img src="speakers/bg-triangles.svg" width="250" height="250" alt="Jane Doe">
+            <h3 style="font-size: 1.5rem; margin: 0.5rem 0;"><strong>Daniel Fried</strong></h3>
+            <p style="font-size: 1rem;">
+            CMU </p>
+          </div>
+
+          <div>
+            <img src="speakers/bg-triangles.svg" width="250" height="250" alt="Jane Doe">
+            <h3 style="font-size: 1.5rem; margin: 0.5rem 0;"><strong>Jennifer<br/> Hu</strong></h3>
+            <p style="font-size: 1rem;">
+            Harvard/JHU </p>
+          </div>
+
+          <div>
+            <img src="speakers/bg-triangles.svg" width="250" height="250" alt="Jane Doe">
+            <h3 style="font-size: 1.5rem; margin: 0.5rem 0;"><strong>Vera Demberg</strong></h3>
+           <p style="font-size: 1rem;">
+            Saarland University</p>
+          </div>
     design:
       spacing:
-        # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
-  - block: cta-card
+        padding: ["10rem", 0 , 0, "10rem"]
+      columns: 1
+      css_class: "dark min-h-screen"
+      background:
+        color: "#111111"
+        image:
+          filename: 2.png
+          size: contain
+          position: center
+          # Use a fun parallax-like fixed background effect on desktop? true/false
+          parallax: true
+          # Text color (true=light, false=dark, or remove for the dynamic theme color).
+          text_color_light: true
+
+  # - block: cta-card
+  #   content:
+  #     title: Register Today!
+  #     text: Main Conference Registration
+  #     button:
+  #       text: Register
+  #       url: https://colmweb.org
+  #   # design:
+  #   #   card:
+  #   #     # Card background color (CSS class)
+  #   #     css_class: "bg-primary-700"
+  #   #     css_style: ""
+  #   design:
+  #     card:
+  #       css_class: 
+  #       css_style: "dark min-h-screen"
+  #     spacing:
+  #       padding: [0, 0, "10rem", 0]
+  #     columns: 1
+  #     css_class: "dark "
+  #     background:
+  #       color: "#111111"
+  #       image:
+  #         filename: 3.png
+  #         size: contain
+  #         position: center
+  #         # Use a fun parallax-like fixed background effect on desktop? true/false
+  #         parallax: true
+  #         # Text color (true=light, false=dark, or remove for the dynamic theme color).
+  #         text_color_light: true
+
+  - block: markdown
+    id: schedule
     content:
-      title: Build your future-proof website
-      text: As easy as 1, 2, 3!
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+      title: <h1 class="tracking-tight text-left" style="font-size:3rem; color:white; line-height:125%; ">Schedule<hr/></h1>
+      text: TBD
+        # |
+        # <div style="font-size:1.2rem; text-left; font-weight:400;">
+        #   <table style="width:100%; border-collapse: collapse;">
+        #     <tr>
+        #       <th style="width:50%; padding:1rem; border-bottom:1px solid #444444; color:white; font-size:1.4rem;">Morning</th>
+        #       <th style="width:50%; padding:1rem; border-bottom:1px solid #444444; color:white; font-size:1.4rem;">Afternoon</th>
+        #     </tr>
+        #     <tr>
+        #       <td style="padding:1rem; vertical-align:top;">
+        #         <h4 style="font-size:1.2rem; font-weight:400;">
+        #           <strong>9:00 - 9:15</strong><br/>
+        #           <span style="color:#888888">Opening Remarks</span>
+        #           <br/><br/>
+        #           <strong>9:15 - 10:00</strong><br/>
+        #           <span style="color:#888888">Keynote: Daniel Fried</span>
+        #           <br/><br/>
+        #           <strong>10:00 - 10:45</strong><br/>
+        #           <span style="color:#888888">Keynote: Jennifer Hu</span>
+        #           <br/><br/>
+        #           <strong>10:45 - 11:00</strong><br/>
+        #           <span style="color:#888888">Coffee Break</span>
+        #           <br/><br/>
+        #           <strong>11:00 - 12:30</strong><br/>
+        #           <span style="color:#888888">Contributed Talks Session 1</span>
+        #         </h4>
+        #       </td>
+        #       <td style="padding:1rem; vertical-align:top;">
+        #         <h4 style="font-size:1.2rem; font-weight:400;">
+        #           <strong>2:00 - 2:45</strong><br/>
+        #           <span style="color:#888888">Keynote: Vera Demberg</span>
+        #           <br/><br/>
+        #           <strong>2:45 - 3:30</strong><br/>
+        #           <span style="color:#888888">Keynote: Michael Franke</span>
+        #           <br/><br/>
+        #           <strong>3:30 - 3:45</strong><br/>
+        #           <span style="color:#888888">Coffee Break</span>
+        #           <br/><br/>
+        #           <strong>3:45 - 5:15</strong><br/>
+        #           <span style="color:#888888">Contributed Talks Session 2</span>
+        #           <br/><br/>
+        #           <strong>5:15 - 5:30</strong><br/>
+        #           <span style="color:#888888">Closing Remarks</span>
+        #         </h4>
+        #       </td>
+        #     </tr>
+        #   </table>
+        # </div>
     design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+      spacing:
+        padding: ["10rem", 0, "20rem", "10rem"]
+      columns: 1
+      css_class: "dark"
+      background:
+        color: "#111111"
+        image:
+          filename: 2.png
+          size: contain
+          position: center
+          parallax: true
+          text_color_light: true
+
+
+  - block: markdown
+    id: organizers
+    content:
+      title: <h1 class="tracking-tight text-left" style="font-size:3rem; color:white; line-height:125%; ">Organizers<hr/></h1>
+      text: |
+        <div style="font-size:1.2rem; text-left; font-weight:400;">
+          <ul style="list-style-type:none;">
+            <h4 style="font-size:1.2rem; text-left; font-weight:400;">
+              <li style="margin-bottom:0.3rem;">• Alane Suhr <span style="color:#BBBBBB">, University of California at Berkeley</span></li>
+              <li style="margin-bottom:0.3rem;">• Anya Ji <span style="color:#BBBBBB">, University of California at Berkeley</span></li>
+              <li style="margin-bottom:0.3rem;">• Kayo Yin <span style="color:#BBBBBB">, University of California at Berkeley</span></li>
+              <li style="margin-bottom:0.3rem;">• Minwoo Kang <span style="color:#BBBBBB">, University of California at Berkeley</span></li>
+              <li style="margin-bottom:0.3rem;">• Nicholas Tomlin <span style="color:#BBBBBB">, University of California at Berkeley</span></li>
+              <li style="margin-bottom:0.3rem;">• Polina Tsvilodub <span style="color:#BBBBBB">, University of Tübingen</span></li>
+              <li style="margin-bottom:0.3rem;">• Robert Hawkins <span style="color:#BBBBBB">, Stanford University</span></li>
+              <li style="margin-bottom:0.3rem;">• Seun Eisape <span style="color:#BBBBBB">, University of California at Berkeley</span></li>
+              <li style="margin-bottom:0.3rem;">• Téa Wright <span style="color:#BBBBBB">, University of California at Berkeley</span></li>
+            </h4>
+          </ul>
+        </div>
+    design:
+      spacing:
+        padding: ["10rem", "10rem", 0, 0]
+      columns: 1
+      css_class: "dark"
+      background:
+        color: "#111111"
+        image:
+          filename: 3.png
+          size: contain
+          position: center
+          parallax: true
+          text_color_light: true
+
+
+  - block: markdown
+    id: contact
+    content:
+      title: <h1 class="tracking-tight text-left" style="font-size:3rem; color:white; line-height:125%; ">Contact<hr/></h1>
+      text: |
+        <div style="font-size:1.2rem; text-left; font-weight:400;">
+          <h4 style="font-size:1.2rem; text-left; font-weight:400;">
+            <p>&#9993; <a href="mailto:workshop.pragmatics.llms@gmail.com" style="color:#888888;">workshop.pragmatics.llms@gmail.com</a></p>
+          </h4>
+        </div>
+    design:
+      spacing:
+        padding: ["10rem", "10rem", "5rem", 0]
+      columns: 1
+      css_class: "dark"
+      background:
+        color: "#111111"
+        image:
+          filename: 3.png
+          size: contain
+          position: center
+          parallax: true
+          text_color_light: true
 ---

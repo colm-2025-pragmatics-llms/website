@@ -1,0 +1,22 @@
+/* Import font declarations */
+@import "fonts.css";
+
+/* Apply the fonts to elements */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Serif 4', serif;
+} */
+
+h3 {
+    font-family: 'Source Serif 4', serif;
+}
+h1, h2, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+}
+/* For specific elements you want to use Playwrite DK Loopet */
+.playwrite-font {
+  font-family: 'Playwrite DK Loopet', cursive;
+}
