@@ -16,7 +16,7 @@ sections:
     design:
     
       spacing:
-        padding: ["10rem", "10rem", 0 , 0]
+        padding: ["10rem", 0, 0 , 0]
       columns: 1
       css_class: "dark min-h-screen"
       background:
@@ -42,7 +42,7 @@ sections:
         </div>
     design:
       spacing:
-        padding: ["5rem", "10rem", 0, 0]
+        padding: ["5rem", 0, 0, 0]
       columns: 1
       css_class: "dark "
       background:
@@ -89,7 +89,7 @@ sections:
         </div>
     design:
       spacing:
-        padding: ["10rem", "12rem", "10rem", 0 ]
+        padding: ["10rem", 0, "10rem", 0 ]
       columns: 1
       css_class: "dark min-h-screen"
       background:
@@ -121,7 +121,7 @@ sections:
         </div>
     design:
       spacing:
-        padding: ["10rem", 0, 0, "10rem"]
+        padding: ["10rem", 0, 0, 0]
       columns: 1
       css_class: "dark"
       background:
@@ -162,7 +162,7 @@ sections:
           </div>
     design:
       spacing:
-        padding: ["10rem", 0 , 0, "10rem"]
+        padding: ["10rem", 0 , 0, 0]
       columns: 1
       css_class: "dark min-h-screen"
       background:
@@ -261,7 +261,7 @@ sections:
         # </div>
     design:
       spacing:
-        padding: ["10rem", 0, "20rem", "10rem"]
+        padding: ["10rem", 0, "20rem", 0]
       columns: 1
       css_class: "dark"
       background:
@@ -296,9 +296,9 @@ sections:
         </div>
     design:
       spacing:
-        padding: ["10rem", "10rem", 0, 0]
+        padding: ["10rem", 0, 0, 0]
       columns: 1
-      css_class: "dark"
+      css_class: "dark min-h-screen"
       background:
         color: "#111111"
         image:
@@ -321,7 +321,7 @@ sections:
         </div>
     design:
       spacing:
-        padding: ["10rem", "10rem", "5rem", 0]
+        padding: ["10rem", 0, "5rem", 0]
       columns: 1
       css_class: "dark"
       background:
