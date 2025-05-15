@@ -6,25 +6,27 @@
 # Appearance
 appearance:
   mode: light
-  color: black
+  color: sky
+  fonts: custom
+  font_size: L
 
-# SEO
-# marketing:
-#   seo:
-#     site_type: Person
-#     local_business_type: ''
-#     org_name: ''
-#     description: 'A highly-customizable Hugo landing page theme powered by Hugo Blox website builder.'
-#     twitter: 'GetResearchDev'
-#   analytics:
-#     google_analytics: ''
-#     baidu_tongji: ''
-#     plausible: ''
-#     fathom: ''
-#     pirsch: ''
-#   verification:
-#     google: ''
-#     baidu: ''
+#
+marketing:
+  seo:
+    site_type: Organization
+    local_business_type: ''
+    org_name: 'colm2025_workshop_praglm'
+    description: 'Workshop on Pragmatic Reasoning in LLMs: Language Models as Language Users'
+    twitter: ''
+  analytics:
+    google_analytics: ''
+    baidu_tongji: ''
+    plausible: ''
+    fathom: ''
+    pirsch: ''
+  verification:
+    google: ''
+    baidu: ''
 
 # Site header
 header:
@@ -36,18 +38,19 @@ header:
     logo:
       text: ""
       # Logo filename in `assets/media/` folder
-      filename: "logo.svg"
+      # filename: "logo.svg"
     button:
-      enable: true
-      text: "Get Started"
-      url: "https://hugoblox.com/templates/"
+      enable: false
+      text: "Register for COLM 2025"
+      url: "https://colmweb.org"
     show_search: true
-    show_theme_chooser: true
+    show_theme_chooser: false
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} My Company'
+    notice: '© 2025 Workshop Organizers | Photo by <a href="https://unsplash.com/@venmer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Stanislav</a> on <a href="https://unsplash.com/photos/a-computer-generated-image-of-a-blue-and-purple-object-QrdBlbeVoeg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      '
 
 # Localization
 locale:

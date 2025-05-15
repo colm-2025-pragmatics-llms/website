@@ -42,7 +42,7 @@ sections:
         </div>
     design:
       spacing:
-        padding: ["5rem", "10rem", 0, 0]
+        padding: ["5rem", "10grem", 0, 0]
       columns: 1
       css_class: "dark "
       background:
