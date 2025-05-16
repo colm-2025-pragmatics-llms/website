@@ -64,7 +64,7 @@ sections:
           <h4 style="font-size:1.2rem; text-left; font-weight:400;">
           <span style="font-size:1.6rem; text-left; font-weight:600;"> 
           Humans are pragmatic language users</span><br/>
-          We produce language based on our understanding of how context contributes to meaning and deliberate on the choice of utterances that helps us collaborate and engage in social interactions. 
+          We produce language based on our understanding of how context contributes to meaning and deliberate on the choice of utterances and interpretations that helps us collaborate and engage in social interactions. 
           While recent large language models (LLMs) have shown impressive performance on a variety of language-related tasks, could these models be considered as true pragmatic language users?
           <br/>
           <br/>
@@ -73,8 +73,8 @@ sections:
           <span style="font-size:1.6rem; text-left; font-weight:600;"> 
           Towards Language Models as Language Users</span><br/>
           <span style="text-left;font-family: 'Source Serif 4', serif; font-weight:700; letter-spacing: 0em;"> The 1st Workshop on Pragmatic Reasoning in Language Models (PragLM)</span> 
-          aims to stimulate research on developing LLMs as pragmatically competent language users.
-          We invite contributions that will forward the discussion of understanding and improving LLMs to generate natural language flexibly and efficiently across contexts, with relations to research on the cognitive and linguistic processes supporting effective, context-sensitive communication. Our interdisciplinary theme brings together researchers in NLP, comptuational pragmatics, cognitive science, and other fields: <br/>join us at COLM 2025!
+          aims to stimulate research on LLMs as pragmatically competent language users.
+          We invite contributions that will forward the discussion of understanding and improvent of LLMs' capability to generate natural language flexibly and efficiently across contexts, with relations to research on the cognitive and linguistic processes supporting effective, context-sensitive communication. Our interdisciplinary theme brings together researchers in NLP, comptuational pragmatics, cognitive science, and other fields: <br/>join us at COLM 2025!
           </h4>
         </div>
     design:
@@ -118,11 +118,11 @@ sections:
                 </details>
                 <details style="color:white; margin-bottom:1rem;">
                   <summary style="color:#C3EEFA; cursor:pointer; font-size:1.2rem; margin-top:0rem;margin-bottom:0.5rem;">Theory-of-Mind (ToM) and Pragmatics</summary>
-                    Is there a correlation between LLM capabilities for Theory-of-Mind reasoning and contextual language generation; if so, how?
+                    Is there a correlation between LLM capabilities for Theory-of-Mind reasoning and contextual language generation? If so, what are the mechanisms behind these capabilities?
                 </details>
                 <details style="color:white; margin-bottom:1rem;">
                   <summary style="color:#C3EEFA; cursor:pointer; font-size:1.2rem; margin-top:0rem;margin-bottom:0.5rem;">Pragmatics across Cultures and Languages</summary>
-                    Are LLM abilities in functional language use similar across cultures and languages?
+                    Are LLM abilities in functional language use similar across cultural contexts and languages?
                 </details>
                 <details style="color:white; margin-bottom:1rem;">
                   <summary style="color:#C3EEFA; cursor:pointer; font-size:1.2rem; margin-top:0rem;margin-bottom:0.5rem;">
@@ -130,7 +130,7 @@ sections:
                     How can LLMs be leveraged for better theoretical, experimental and computational understanding of human pragmatic language use?
                 </details>
                 <details style="color:white; margin-bottom:1rem;">
-                  <summary style="color:#C3EEFA; cursor:pointer; font-size:1.2rem; margin-top:0rem;margin-bottom:0.5rem;">LLM Interpretability of Model Pragmatic Competence </summary>
+                  <summary style="color:#C3EEFA; cursor:pointer; font-size:1.2rem; margin-top:0rem;margin-bottom:0.5rem;">Interpretability of LLMs' Pragmatic Competence </summary>
                     What are the mechanisms supporting LLMs' pragmatic competence, e.g. through the lens of mechanistic or representational interpretability?
                 </details>
               </ul>
