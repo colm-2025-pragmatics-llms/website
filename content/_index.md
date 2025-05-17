@@ -165,7 +165,7 @@ sections:
           text_color_light: true
   - block: cta-card
     content:
-      title: <h2 class="tracking-tight text-left" style="font-size:2.0rem; color:white; line-height:125%; "> Register and Join Us!</h2>
+      title:
       text: 
       button:
         text: Submit now!
