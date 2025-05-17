@@ -163,6 +163,30 @@ sections:
           parallax: true
           # Text color (true=light, false=dark, or remove for the dynamic theme color).
           text_color_light: true
+  - block: cta-card
+    content:
+      title: <h2 class="tracking-tight text-left" style="font-size:2.0rem; color:white; line-height:125%; "> Register and Join Us!</h2>
+      text: 
+      button:
+        text: Submit now!
+        url: https://openreview.net/group?id=colmweb.org/COLM/2025/Workshop/PragLM
+    design:
+      card:
+        css_class: "bg-transparent"
+      spacing:
+        padding: [0,0,"5rem",0]
+      columns: 1
+      css_class: "dark"
+      background:
+        color: "#111111"
+        image:
+          filename: 1.png
+          size: contain
+          position: center
+          # Use a fun parallax-like fixed background effect on desktop? true/false
+          parallax: true
+          # Text color (true=light, false=dark, or remove for the dynamic theme color).
+          text_color_light: true
 
   - block: markdown
     id: dates
