@@ -270,6 +270,12 @@ sections:
            <p style="font-size: 1rem;">
             Saarland University</p>
           </div>
+
+          <div>
+            <h3 style="font-size: 1.5rem; margin: 0.5rem 0;"><strong>Michael Franke</strong></h3>
+           <p style="font-size: 1rem;">
+            University of Tübingen</p>
+          </div>
     design:
       spacing:
         padding: ["5rem", 0 , 0, 0]
