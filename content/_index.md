@@ -251,7 +251,7 @@ sections:
       title: <h1 class="tracking-tight text-left" style="font-size:3rem; color:white; line-height:125%; ">Invited Speakers<hr/></h1>
       #<img src="speakers/bg-triangles.svg" width="250" height="250" alt="Jane Doe">
       text: |
-        <div style="width: 100%; margin: 0 auto; display: grid; grid-template-columns: repeat(4, 0fr); gap: 2rem; text-align: center;">
+        <div style="width: 100%; margin: 0 auto; display: grid; grid-template-columns: repeat(4, auto); gap: 2rem; justify-content: center; text-align: center;">
           
           <div>
             <h3 style="font-size: 1.5rem; margin: 0.5rem 0;"><strong>Daniel Fried</strong></h3>
