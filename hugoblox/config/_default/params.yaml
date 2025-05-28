@@ -38,13 +38,15 @@ header:
     logo:
       text: ""
       # Logo filename in `assets/media/` folder
-      # filename: "logo.svg"
+      filename: "praglm.svg"
     button:
       enable: false
       text: "Register for COLM 2025"
       url: "https://colmweb.org"
     show_search: false
     show_theme_chooser: false
+  favicon:
+    filename: "icon.png"
 
 # Site footer
 footer:

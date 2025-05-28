@@ -11,7 +11,8 @@ sections:
   - block: markdown
     id: home
     content:   
-      title: <h4><span style="font-size:3.0rem; text-left; font-weight:600;">COLM 2025 Workshop</span><div style="height:4.0rem"></h4><h2 class="tracking-tight text-left" style="font-size:4.0rem; color:white; line-height:125%; ">Pragmatic Reasoning <br/>in Language Models<div style="height:4rem"></div></h2><h3><span style="font-size:2.1rem; text-left; font-weight:400; font-style:italic">Language Models as Language Users</span><div style="height:8.0rem"></h3><h2 class="tracking-tight text-left" style="font-size:3rem; color:white; line-height:125%; "><span style="font-size:2.5rem; text-align:left; display:block; border-left:10px solid white; padding-left:1rem; font-weight:500; line-height:150%;">October 10, 2025 <br/>Montreal, Canada </span></h2>
+      title: <h4><br><br><br><br><br><br><br><br><br><br><br><br></h4> #find a better way to do this
+      # <h4><span style="font-size:3.0rem; text-left; font-weight:600;">COLM 2025 Workshop</span><div style="height:4.0rem"></h4><h2 class="tracking-tight text-left" style="font-size:4.0rem; color:white; line-height:125%; ">Pragmatic Reasoning <br/>in Language Models<div style="height:4rem"></div></h2><h3><span style="font-size:2.1rem; text-left; font-weight:400; font-style:italic">Language Models as Language Users</span><div style="height:8.0rem"></h3><h2 class="tracking-tight text-left" style="font-size:3rem; color:white; line-height:125%; "><span style="font-size:2.5rem; text-align:left; display:block; border-left:10px solid white; padding-left:1rem; font-weight:500; line-height:150%;">October 10, 2025 <br/>Montreal, Canada </span></h2>
       # text: 
     design:
     
@@ -22,7 +23,7 @@ sections:
       background:
         color: "#111111"
         image:
-          filename: 1.png
+          filename: PragLm.svg #1.png
           size: contain
           position: center
           # Use a fun parallax-like fixed background effect on desktop? true/false
