@@ -144,6 +144,8 @@ sections:
             We seek <strong>both 4-page extended abstracts and 8-page full papers</strong> excluding references and appendices. All workshops papers are <strong> non-archival </strong>, and we welcome <strong> position</strong>  papers on topics of interest to the workshop. 
             <br/><br/>
             All submissions will be in the <a href="https://github.com/COLM-org/Template/archive/refs/tags/2025.zip" style="color:#C3EEFA;">COLM 2025 latex format</a> and submitted via the OpenReview portal. Accepted papers will be invited for poster/oral presentations and will be publicly available on the workshop website.
+        <br/><br/>
+        Note: You will require an OpenReview account to submit. If you do not have an institutional email (e.g. a .edu address), OpenReview moderation can take up to 2 weeks. Please make an account by June 8th at the latest if this applies to you. 
             </h4>
           </div>
         </div>
